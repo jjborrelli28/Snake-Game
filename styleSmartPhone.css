@@ -1,0 +1,206 @@
+body {
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  font-family: "Baloo Da 2", cursive;
+  background-image: url(backgroud.jpg);
+  background-size: cover;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 200%;
+  text-shadow: -4px -4px 5px #000, 4px -4px 5px #000, -4px 4px 5px #000,
+    4px 4px 5px #000;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#console {
+  height: 3.5rem;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  border-top: 5px #4a660c solid;
+  border-left: 5px #4a660c solid;
+  border-right: 5px #4a660c solid;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.score {
+  color: black;
+}
+
+form {
+  flex: 1 0 34%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  font-family: "Baloo Da 2", cursive;
+  font-size: 125%;
+  font-weight: bold;
+  border-top: none;
+  border-bottom: none;
+  border-left: 0.2rem #4a660c solid;
+  border-right: 0.2rem #4a660c solid;
+  width: 100%;
+  background-color: rgba(162, 209, 73);
+  height: 100%;
+}
+
+.btn:hover {
+  background-color: rgba(170, 215, 81);
+  cursor: pointer;
+}
+
+.btnReset {
+  background-color: red;
+  color: white;
+}
+
+.btnReset:hover {
+  background-color: rgb(255, 53, 53);
+  cursor: pointer;
+}
+
+.consoleSide {
+  background-color: white;
+  flex: 1 0 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#tituleConsole {
+  text-decoration: underline;
+}
+
+#container {
+  background-color: #4a660c;
+  width: 348.5px;
+  padding: 5px;
+}
+
+#map {
+  width: 348.5px;
+  height: 348.5px;
+  background-color: rgba(162, 209, 73);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.lightGreen {
+  background-color: rgba(170, 215, 81);
+  width: 20.5px;
+  height: 20.5px;
+}
+
+.darkGreen {
+  background-color: rgba(162, 209, 73);
+  width: 20.5px;
+  height: 20.5px;
+}
+
+.lightBlue {
+  background-color: rgb(46, 99, 231);
+}
+
+.apple {
+  background-color: rgb(231, 71, 29);
+  border-radius: 50%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  background-color: black;
+  height: 2.75rem;
+  color: gray;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.messageDefeat {
+  position: absolute;
+  top: 177px;
+  width: 236.5px;
+  height: 236.5px;
+  background-color: white;
+  border: solid 0.25rem black;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.defeat {
+  flex: 1 0 30%;
+  font-size: 300%;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: black solid 0.25rem;
+  background-color: rgb(255, 53, 53);
+}
+
+.message {
+  flex: 1 0 17.5%;
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.number {
+  flex: 1 0 17.5%;
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.space {
+  flex: 1 0 17.5%;
+}
+
+.keys {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-color: grey;
+  width: 70px;
+  height: 70px;
+  box-sizing: border-box;
+  border: solid black 3px;
+  border-radius: 5px;
+  margin: 3px;
+}
+
+.nothing {
+  width: 70px;
+  height: 70px;
+  background-color: transparent;
+  margin: 3px;
+}
+
+.controls {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 228px;
+  height: 152px;
+  font-size: 300%;
+  font-weight: bolder;
+}

@@ -1,0 +1,73 @@
+@media (min-width: 468px) {
+  header {
+    font-size: 500%;
+  }
+
+  main {
+    -webkit-box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.75);
+  }
+
+  #console {
+    border-top: 1rem #4a660c solid;
+    border-left: 1rem #4a660c solid;
+    border-right: 1rem #4a660c solid;
+    font-size: 125%;
+    height: 5rem;
+  }
+
+  .btn {
+    font-size: 150%;
+    height: 5rem;
+  }
+
+  #container {
+    padding: 1rem;
+    width: 34rem;
+  }
+
+  #map {
+    width: 34rem;
+    height: 34rem;
+  }
+
+  .lightGreen {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .darkGreen {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .messageDefeat {
+    top: 329px;
+    width: 22rem;
+    height: 22rem;
+  }
+
+  .defeat {
+    font-size: 500%;
+  }
+
+  .message {
+    flex: 1 0 17.5%;
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .number {
+    font-size: 200%;
+  }
+
+  .controls {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+  }
+}
