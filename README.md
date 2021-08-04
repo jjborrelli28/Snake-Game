@@ -1,3 +1,3 @@
 # Snake Game
 
-### https://jjborrelli92.github.io/Snake/
+### https://jjborrelli92.github.io/Snake-Game/
